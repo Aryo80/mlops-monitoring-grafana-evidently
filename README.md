@@ -1,77 +1,22 @@
-# 5. Model Monitoring
-
-## 5.1 Intro to ML monitoring
-
-<a href="https://www.youtube.com/watch?v=SQ0jBwd_3kk&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/SQ0jBwd_3kk">
-</a>
 
 
+# ml-monitoring
 
-## 5.2 Environment setup
+```bash
 
-<a href="https://www.youtube.com/watch?v=yixA3C1xSxc&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/yixA3C1xSxc">
-</a>
+mkdir taxi_monitoring
+cd taxi_monitoring
+conda create -n py11 python=3.11
+conda activate py11
+pip install -r requirements.txt
+```
 
-
-
-## 5.3 Prepare reference and model
-
-<a href="https://www.youtube.com/watch?v=IjNrkqMYQeQ&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/IjNrkqMYQeQ">
-</a>
-
-
-
-## 5.4 Evidently metrics calculation
-
-<a href="https://www.youtube.com/watch?v=kP3lzh_HfWY&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/kP3lzh_HfWY">
-</a>
-
-
-## 5.5 Evidently Monitoring Dashboard
-
-<a href="https://www.youtube.com/watch?v=zjvYhDPzFlY&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/zjvYhDPzFlY">
-</a>
-
-
-## 5.6 Dummy monitoring
-
-<a href="https://www.youtube.com/watch?v=s3G4PMsOMOA&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/s3G4PMsOMOA">
-</a>
-
-
-
-## 5.7 Data quality monitoring
-
-<a href="https://www.youtube.com/watch?v=fytrmPbcLhI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/fytrmPbcLhI">
-</a>
-
-> Note: in this video we use Prefect (07:33-11:21). Feel free to skip this part. Also note that Prefect
-is not officially supported in the 2024 edition of the course.
-
-
-## 5.8 Save Grafana Dashboard
-
-<a href="https://www.youtube.com/watch?v=-c4iumyZMyw&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/-c4iumyZMyw">
-</a>
-
-
-
-## 5.9 Debugging with test suites and reports
-
-<a href="https://www.youtube.com/watch?v=sNSk3ojISh8&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/sNSk3ojISh8">
-</a>
-
-
-## Homework
+### Create config dir 
+ 
+### create docker compose config file 
+```bash
+docker-compose up --build
+```
 
 
 More information [here](../cohorts/2024/05-monitoring/homework.md)
